@@ -1,0 +1,63 @@
+/*
+    Esto es un bloque de comentarios en CSS
+    Aquí puedes agregar estilos CSS
+*/
+
+/* Selector Universal */
+*{
+    color: red;;
+}
+/*
+    Selector de tipo
+p {
+    color:orange;
+    font-size: 30px;
+}
+*/
+
+/*
+    Selector de clase
+    Se utiliza el punto (.) para seleccionar una clase
+    Se puede aplicar a varios elementos
+    Se puede aplicar a varios elementos con la misma clase
+    Se puede aplicar a varios elementos con diferentes clases
+*/
+.titulo {
+    color:brown;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+/* Selector de clase */
+.negrita {
+    font-weight: bold;
+}
+
+/*
+    Selector de ID
+    Se utiliza el símbolo (#) para seleccionar un ID
+    Se puede aplicar a un solo elemento
+    Se puede aplicar a varios elementos con el mismo ID
+    Se recomienda no usarlo en varios elementos
+*/
+#titulo {
+    color:blue;
+    font-size: 50px;
+    border: 1px solid black;
+}
+
+/* combinador de descendentes */
+.abuelo .titulo {
+    color:blue;
+    font-size: 40px;
+}
+
+.abuelo>.titulo {
+    color:red;
+    font-size: 40px;
+}
+
+.padre .titulo {
+    color:green;
+    font-size: 30px;
+}
